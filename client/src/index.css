@@ -1,0 +1,82 @@
+body {
+  background: #eee;
+  font-family: "Nunito SemiBold";
+}
+
+#main h1 {
+  color: #444;
+  text-align: center;
+}
+
+#main {
+  padding: 0;
+  box-sizing: border-box;
+  width: 60%;
+  height: 100%;
+}
+
+#bookList__list {
+  padding: 0;
+}
+
+#bookList__list li {
+  display: inline-block;
+  margin: 12px;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #4F0E88;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
+  color: #4F0E88;
+}
+
+#addBook__form {
+  background: #fff;
+  padding: 20px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+
+#addBook__form label {
+  text-align: right;
+  padding: 6px;
+}
+
+#addBook__form select, #addBook__form input {
+  margin: 4px;
+  padding: 6px;
+  box-sizing: border-box;
+}
+
+form button {
+  color: #fff;
+  font-size: 2em;
+  background: #5734ad;
+  border: 0;
+  padding: 0 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.addBook__form__field {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0px;
+}
+
+#bookDetails {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 40%;
+  height: 100%;
+  background: #5734ad;
+  padding: 30px;
+  overflow: auto;
+  box-shadow: -2px -3px 5px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  box-sizing: border-box;
+}
